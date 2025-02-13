@@ -72,6 +72,7 @@ namespace intro
             //calcular X dividiendo la detrminante de x entre la determinante general
             decimal x = detx / det;
 
+            //aqui agregar valor de y y z
             lb_x.Text = x.ToString();
             lb_det.Text = det.ToString();
         }
