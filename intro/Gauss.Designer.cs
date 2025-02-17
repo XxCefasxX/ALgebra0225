@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.tb_11 = new System.Windows.Forms.TextBox();
-            this.tn_12 = new System.Windows.Forms.TextBox();
+            this.tb_12 = new System.Windows.Forms.TextBox();
             this.tb_13 = new System.Windows.Forms.TextBox();
             this.tb_14 = new System.Windows.Forms.TextBox();
             this.tb_21 = new System.Windows.Forms.TextBox();
@@ -65,17 +65,17 @@
             // 
             // tb_11
             // 
-            this.tb_11.Location = new System.Drawing.Point(12, 12);
+            this.tb_11.Location = new System.Drawing.Point(19, 12);
             this.tb_11.Name = "tb_11";
             this.tb_11.Size = new System.Drawing.Size(67, 20);
             this.tb_11.TabIndex = 0;
             // 
-            // tn_12
+            // tb_12
             // 
-            this.tn_12.Location = new System.Drawing.Point(92, 12);
-            this.tn_12.Name = "tn_12";
-            this.tn_12.Size = new System.Drawing.Size(66, 20);
-            this.tn_12.TabIndex = 1;
+            this.tb_12.Location = new System.Drawing.Point(92, 12);
+            this.tb_12.Name = "tb_12";
+            this.tb_12.Size = new System.Drawing.Size(66, 20);
+            this.tb_12.TabIndex = 1;
             // 
             // tb_13
             // 
@@ -93,7 +93,7 @@
             // 
             // tb_21
             // 
-            this.tb_21.Location = new System.Drawing.Point(12, 38);
+            this.tb_21.Location = new System.Drawing.Point(19, 38);
             this.tb_21.Name = "tb_21";
             this.tb_21.Size = new System.Drawing.Size(67, 20);
             this.tb_21.TabIndex = 4;
@@ -121,7 +121,7 @@
             // 
             // tb_31
             // 
-            this.tb_31.Location = new System.Drawing.Point(12, 64);
+            this.tb_31.Location = new System.Drawing.Point(19, 64);
             this.tb_31.Name = "tb_31";
             this.tb_31.Size = new System.Drawing.Size(67, 20);
             this.tb_31.TabIndex = 8;
@@ -170,24 +170,25 @@
             // 
             // tb_41
             // 
-            this.tb_41.Location = new System.Drawing.Point(12, 90);
+            this.tb_41.Location = new System.Drawing.Point(19, 90);
             this.tb_41.Name = "tb_41";
             this.tb_41.Size = new System.Drawing.Size(67, 20);
             this.tb_41.TabIndex = 12;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(126, 116);
+            this.button1.Location = new System.Drawing.Point(126, 126);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 16;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lb_11
             // 
             this.lb_11.AutoSize = true;
-            this.lb_11.Location = new System.Drawing.Point(51, 177);
+            this.lb_11.Location = new System.Drawing.Point(75, 166);
             this.lb_11.Name = "lb_11";
             this.lb_11.Size = new System.Drawing.Size(16, 13);
             this.lb_11.TabIndex = 17;
@@ -196,7 +197,7 @@
             // lb_12
             // 
             this.lb_12.AutoSize = true;
-            this.lb_12.Location = new System.Drawing.Point(106, 177);
+            this.lb_12.Location = new System.Drawing.Point(130, 166);
             this.lb_12.Name = "lb_12";
             this.lb_12.Size = new System.Drawing.Size(16, 13);
             this.lb_12.TabIndex = 18;
@@ -205,7 +206,7 @@
             // lb_13
             // 
             this.lb_13.AutoSize = true;
-            this.lb_13.Location = new System.Drawing.Point(165, 177);
+            this.lb_13.Location = new System.Drawing.Point(185, 166);
             this.lb_13.Name = "lb_13";
             this.lb_13.Size = new System.Drawing.Size(16, 13);
             this.lb_13.TabIndex = 19;
@@ -214,7 +215,7 @@
             // lb_14
             // 
             this.lb_14.AutoSize = true;
-            this.lb_14.Location = new System.Drawing.Point(225, 177);
+            this.lb_14.Location = new System.Drawing.Point(243, 166);
             this.lb_14.Name = "lb_14";
             this.lb_14.Size = new System.Drawing.Size(16, 13);
             this.lb_14.TabIndex = 20;
@@ -223,7 +224,7 @@
             // lb_21
             // 
             this.lb_21.AutoSize = true;
-            this.lb_21.Location = new System.Drawing.Point(51, 209);
+            this.lb_21.Location = new System.Drawing.Point(75, 198);
             this.lb_21.Name = "lb_21";
             this.lb_21.Size = new System.Drawing.Size(16, 13);
             this.lb_21.TabIndex = 21;
@@ -232,7 +233,7 @@
             // lb_22
             // 
             this.lb_22.AutoSize = true;
-            this.lb_22.Location = new System.Drawing.Point(106, 209);
+            this.lb_22.Location = new System.Drawing.Point(130, 198);
             this.lb_22.Name = "lb_22";
             this.lb_22.Size = new System.Drawing.Size(16, 13);
             this.lb_22.TabIndex = 22;
@@ -241,7 +242,7 @@
             // lb_23
             // 
             this.lb_23.AutoSize = true;
-            this.lb_23.Location = new System.Drawing.Point(161, 209);
+            this.lb_23.Location = new System.Drawing.Point(185, 198);
             this.lb_23.Name = "lb_23";
             this.lb_23.Size = new System.Drawing.Size(16, 13);
             this.lb_23.TabIndex = 23;
@@ -250,7 +251,7 @@
             // lb_24
             // 
             this.lb_24.AutoSize = true;
-            this.lb_24.Location = new System.Drawing.Point(222, 209);
+            this.lb_24.Location = new System.Drawing.Point(243, 198);
             this.lb_24.Name = "lb_24";
             this.lb_24.Size = new System.Drawing.Size(16, 13);
             this.lb_24.TabIndex = 24;
@@ -259,7 +260,7 @@
             // lb_31
             // 
             this.lb_31.AutoSize = true;
-            this.lb_31.Location = new System.Drawing.Point(51, 242);
+            this.lb_31.Location = new System.Drawing.Point(75, 231);
             this.lb_31.Name = "lb_31";
             this.lb_31.Size = new System.Drawing.Size(16, 13);
             this.lb_31.TabIndex = 25;
@@ -268,7 +269,7 @@
             // lb_32
             // 
             this.lb_32.AutoSize = true;
-            this.lb_32.Location = new System.Drawing.Point(106, 242);
+            this.lb_32.Location = new System.Drawing.Point(130, 231);
             this.lb_32.Name = "lb_32";
             this.lb_32.Size = new System.Drawing.Size(16, 13);
             this.lb_32.TabIndex = 26;
@@ -277,7 +278,7 @@
             // lb_33
             // 
             this.lb_33.AutoSize = true;
-            this.lb_33.Location = new System.Drawing.Point(161, 242);
+            this.lb_33.Location = new System.Drawing.Point(185, 231);
             this.lb_33.Name = "lb_33";
             this.lb_33.Size = new System.Drawing.Size(16, 13);
             this.lb_33.TabIndex = 27;
@@ -286,7 +287,7 @@
             // lb_34
             // 
             this.lb_34.AutoSize = true;
-            this.lb_34.Location = new System.Drawing.Point(219, 242);
+            this.lb_34.Location = new System.Drawing.Point(243, 231);
             this.lb_34.Name = "lb_34";
             this.lb_34.Size = new System.Drawing.Size(16, 13);
             this.lb_34.TabIndex = 28;
@@ -295,7 +296,7 @@
             // lb_41
             // 
             this.lb_41.AutoSize = true;
-            this.lb_41.Location = new System.Drawing.Point(51, 274);
+            this.lb_41.Location = new System.Drawing.Point(75, 263);
             this.lb_41.Name = "lb_41";
             this.lb_41.Size = new System.Drawing.Size(16, 13);
             this.lb_41.TabIndex = 29;
@@ -304,7 +305,7 @@
             // lb_42
             // 
             this.lb_42.AutoSize = true;
-            this.lb_42.Location = new System.Drawing.Point(106, 274);
+            this.lb_42.Location = new System.Drawing.Point(130, 263);
             this.lb_42.Name = "lb_42";
             this.lb_42.Size = new System.Drawing.Size(16, 13);
             this.lb_42.TabIndex = 30;
@@ -313,7 +314,7 @@
             // lb_43
             // 
             this.lb_43.AutoSize = true;
-            this.lb_43.Location = new System.Drawing.Point(161, 274);
+            this.lb_43.Location = new System.Drawing.Point(185, 263);
             this.lb_43.Name = "lb_43";
             this.lb_43.Size = new System.Drawing.Size(16, 13);
             this.lb_43.TabIndex = 31;
@@ -322,7 +323,7 @@
             // lb_44
             // 
             this.lb_44.AutoSize = true;
-            this.lb_44.Location = new System.Drawing.Point(222, 274);
+            this.lb_44.Location = new System.Drawing.Point(243, 263);
             this.lb_44.Name = "lb_44";
             this.lb_44.Size = new System.Drawing.Size(16, 13);
             this.lb_44.TabIndex = 32;
@@ -332,7 +333,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(358, 335);
+            this.ClientSize = new System.Drawing.Size(323, 333);
             this.Controls.Add(this.lb_44);
             this.Controls.Add(this.lb_43);
             this.Controls.Add(this.lb_42);
@@ -364,7 +365,7 @@
             this.Controls.Add(this.tb_21);
             this.Controls.Add(this.tb_14);
             this.Controls.Add(this.tb_13);
-            this.Controls.Add(this.tn_12);
+            this.Controls.Add(this.tb_12);
             this.Controls.Add(this.tb_11);
             this.Name = "Gauss";
             this.Text = "Gauss";
@@ -376,7 +377,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox tb_11;
-        private System.Windows.Forms.TextBox tn_12;
+        private System.Windows.Forms.TextBox tb_12;
         private System.Windows.Forms.TextBox tb_13;
         private System.Windows.Forms.TextBox tb_14;
         private System.Windows.Forms.TextBox tb_21;
