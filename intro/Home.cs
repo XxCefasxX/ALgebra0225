@@ -39,5 +39,11 @@ namespace intro
             Form2 calculaorra=new Form2();
             calculaorra.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Gauss gauss = new Gauss();
+            gauss.Show();
+        }
     }
 }

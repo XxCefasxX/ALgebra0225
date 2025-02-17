@@ -69,6 +69,7 @@
             this.tb_11.Name = "tb_11";
             this.tb_11.Size = new System.Drawing.Size(67, 20);
             this.tb_11.TabIndex = 0;
+            this.tb_11.Text = "8";
             // 
             // tb_12
             // 
@@ -76,6 +77,7 @@
             this.tb_12.Name = "tb_12";
             this.tb_12.Size = new System.Drawing.Size(66, 20);
             this.tb_12.TabIndex = 1;
+            this.tb_12.Text = "8";
             // 
             // tb_13
             // 
@@ -83,6 +85,7 @@
             this.tb_13.Name = "tb_13";
             this.tb_13.Size = new System.Drawing.Size(68, 20);
             this.tb_13.TabIndex = 2;
+            this.tb_13.Text = "4";
             // 
             // tb_14
             // 
@@ -90,6 +93,7 @@
             this.tb_14.Name = "tb_14";
             this.tb_14.Size = new System.Drawing.Size(67, 20);
             this.tb_14.TabIndex = 3;
+            this.tb_14.Text = "2";
             // 
             // tb_21
             // 
@@ -97,6 +101,7 @@
             this.tb_21.Name = "tb_21";
             this.tb_21.Size = new System.Drawing.Size(67, 20);
             this.tb_21.TabIndex = 4;
+            this.tb_21.Text = "3";
             // 
             // tb_22
             // 
@@ -104,6 +109,7 @@
             this.tb_22.Name = "tb_22";
             this.tb_22.Size = new System.Drawing.Size(66, 20);
             this.tb_22.TabIndex = 5;
+            this.tb_22.Text = "2";
             // 
             // tb_23
             // 
@@ -111,6 +117,7 @@
             this.tb_23.Name = "tb_23";
             this.tb_23.Size = new System.Drawing.Size(68, 20);
             this.tb_23.TabIndex = 6;
+            this.tb_23.Text = "2";
             // 
             // tb_24
             // 
@@ -118,6 +125,7 @@
             this.tb_24.Name = "tb_24";
             this.tb_24.Size = new System.Drawing.Size(67, 20);
             this.tb_24.TabIndex = 7;
+            this.tb_24.Text = "1";
             // 
             // tb_31
             // 
@@ -125,6 +133,7 @@
             this.tb_31.Name = "tb_31";
             this.tb_31.Size = new System.Drawing.Size(67, 20);
             this.tb_31.TabIndex = 8;
+            this.tb_31.Text = "2";
             // 
             // tb_32
             // 
@@ -132,6 +141,7 @@
             this.tb_32.Name = "tb_32";
             this.tb_32.Size = new System.Drawing.Size(66, 20);
             this.tb_32.TabIndex = 9;
+            this.tb_32.Text = "3";
             // 
             // tb_33
             // 
@@ -139,6 +149,7 @@
             this.tb_33.Name = "tb_33";
             this.tb_33.Size = new System.Drawing.Size(68, 20);
             this.tb_33.TabIndex = 10;
+            this.tb_33.Text = "3";
             // 
             // tb_34
             // 
@@ -146,6 +157,7 @@
             this.tb_34.Name = "tb_34";
             this.tb_34.Size = new System.Drawing.Size(67, 20);
             this.tb_34.TabIndex = 11;
+            this.tb_34.Text = "2";
             // 
             // tb_44
             // 
@@ -153,6 +165,7 @@
             this.tb_44.Name = "tb_44";
             this.tb_44.Size = new System.Drawing.Size(67, 20);
             this.tb_44.TabIndex = 15;
+            this.tb_44.Text = "2";
             // 
             // tb_43
             // 
@@ -160,6 +173,7 @@
             this.tb_43.Name = "tb_43";
             this.tb_43.Size = new System.Drawing.Size(68, 20);
             this.tb_43.TabIndex = 14;
+            this.tb_43.Text = "3";
             // 
             // tb_42
             // 
@@ -167,6 +181,7 @@
             this.tb_42.Name = "tb_42";
             this.tb_42.Size = new System.Drawing.Size(66, 20);
             this.tb_42.TabIndex = 13;
+            this.tb_42.Text = "2";
             // 
             // tb_41
             // 
@@ -174,6 +189,7 @@
             this.tb_41.Name = "tb_41";
             this.tb_41.Size = new System.Drawing.Size(67, 20);
             this.tb_41.TabIndex = 12;
+            this.tb_41.Text = "1";
             // 
             // button1
             // 
