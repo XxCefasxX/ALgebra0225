@@ -60,7 +60,7 @@ namespace intro
 
 
 
-            //resolver fila 2
+            //resolver fila 2 columna 1
             if (res21 > 0 || res21 < 0)
             {
                 res21 = Calc(num21, num11, num11, num21);
@@ -69,7 +69,7 @@ namespace intro
                 res24 = Calc(num21, num11, num14, num24);
             }
 
-            //resolver fila 3
+            //resolver fila 3 columna 1
             if (res31 > 0 || res31 < 0)
             {
                 res31 = Calc(num31, num11, num11, num31);
@@ -78,7 +78,7 @@ namespace intro
                 res34 = Calc(num31, num11, num14, num34);
             }
 
-            //resolver fila 4
+            //resolver fila 4 columna 1
             if (res41 > 0 || res41 < 0)
             {
                 res41 = Calc(num41, num11, num11, num41);
