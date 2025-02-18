@@ -106,7 +106,14 @@ namespace intro
                 res44 = Calc(res42, res22, res24, res44);
             }
 
-
+            //resolver fila 4 columna 3
+            if (res43 > 0 || res43 < 0)
+            {
+                res41 = Calc(res43, res33, res31, res41);
+                res42 = Calc(res43, res33, res32, res42);
+                res43 = Calc(res43, res33, res33, res43);
+                res44 = Calc(res43, res33, res34, res44);
+            }
 
 
 
@@ -139,9 +146,9 @@ namespace intro
         /// <summary>
         /// FUncion que convierte en 0 el valor
         /// </summary>
-        /// <param name="fr1">numeor de fila 1</param>
-        /// <param name="fr2">numero de fila 2</param>
-        /// <param name="num1">numero de fila 1</param>
+        /// <param name="fr1">numero que se quiere convertir en 0</param>
+        /// <param name="fr2">numero de de pivote </param>
+        /// <param name="num1">numero de la culumna N de la fial de pivote</param>
         /// <param name="num2">numero a convertir en 0</param>
         /// <returns></returns>
         private decimal Calc(decimal fr1, decimal fr2, decimal num1, decimal num2)
@@ -150,7 +157,7 @@ namespace intro
 
             //(F1*(F2 / F1)) - F2
             //1- fila 2 entre fila 1
-            decimal multiplo1 = fr2 / fr1;
+            decimal multiplo1 = fr1 / fr2;
             //2- multiplo por fila1
             decimal aux = num1 * multiplo1;
             //3- aux menos fila2
