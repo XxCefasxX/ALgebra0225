@@ -65,6 +65,8 @@
             // 
             // tb_11
             // 
+            this.tb_11.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tb_11.ForeColor = System.Drawing.SystemColors.Window;
             this.tb_11.Location = new System.Drawing.Point(19, 12);
             this.tb_11.Name = "tb_11";
             this.tb_11.Size = new System.Drawing.Size(67, 20);
@@ -97,6 +99,7 @@
             // 
             // tb_21
             // 
+            this.tb_21.BackColor = System.Drawing.Color.Salmon;
             this.tb_21.Location = new System.Drawing.Point(19, 38);
             this.tb_21.Name = "tb_21";
             this.tb_21.Size = new System.Drawing.Size(67, 20);
@@ -105,6 +108,8 @@
             // 
             // tb_22
             // 
+            this.tb_22.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tb_22.ForeColor = System.Drawing.SystemColors.Window;
             this.tb_22.Location = new System.Drawing.Point(92, 38);
             this.tb_22.Name = "tb_22";
             this.tb_22.Size = new System.Drawing.Size(66, 20);
@@ -129,6 +134,7 @@
             // 
             // tb_31
             // 
+            this.tb_31.BackColor = System.Drawing.Color.Salmon;
             this.tb_31.Location = new System.Drawing.Point(19, 64);
             this.tb_31.Name = "tb_31";
             this.tb_31.Size = new System.Drawing.Size(67, 20);
@@ -137,6 +143,7 @@
             // 
             // tb_32
             // 
+            this.tb_32.BackColor = System.Drawing.Color.Salmon;
             this.tb_32.Location = new System.Drawing.Point(92, 64);
             this.tb_32.Name = "tb_32";
             this.tb_32.Size = new System.Drawing.Size(66, 20);
@@ -145,6 +152,8 @@
             // 
             // tb_33
             // 
+            this.tb_33.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tb_33.ForeColor = System.Drawing.SystemColors.Window;
             this.tb_33.Location = new System.Drawing.Point(164, 64);
             this.tb_33.Name = "tb_33";
             this.tb_33.Size = new System.Drawing.Size(68, 20);
@@ -161,6 +170,8 @@
             // 
             // tb_44
             // 
+            this.tb_44.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.tb_44.ForeColor = System.Drawing.SystemColors.Window;
             this.tb_44.Location = new System.Drawing.Point(238, 90);
             this.tb_44.Name = "tb_44";
             this.tb_44.Size = new System.Drawing.Size(67, 20);
@@ -169,6 +180,7 @@
             // 
             // tb_43
             // 
+            this.tb_43.BackColor = System.Drawing.Color.Salmon;
             this.tb_43.Location = new System.Drawing.Point(164, 90);
             this.tb_43.Name = "tb_43";
             this.tb_43.Size = new System.Drawing.Size(68, 20);
@@ -177,6 +189,7 @@
             // 
             // tb_42
             // 
+            this.tb_42.BackColor = System.Drawing.Color.Salmon;
             this.tb_42.Location = new System.Drawing.Point(92, 90);
             this.tb_42.Name = "tb_42";
             this.tb_42.Size = new System.Drawing.Size(66, 20);
@@ -185,6 +198,7 @@
             // 
             // tb_41
             // 
+            this.tb_41.BackColor = System.Drawing.Color.Salmon;
             this.tb_41.Location = new System.Drawing.Point(19, 90);
             this.tb_41.Name = "tb_41";
             this.tb_41.Size = new System.Drawing.Size(67, 20);
